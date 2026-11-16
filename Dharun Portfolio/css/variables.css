@@ -1,0 +1,116 @@
+/* ============================================================================
+   DHARUN D — PORTFOLIO DESIGN TOKENS
+   Identity: "Tactical Precision & Zero-Trust Engineering"
+   Palette: obsidian slate + telemetry cyan + verified emerald + alert amber
+   ========================================================================== */
+
+:root {
+  color-scheme: dark;
+
+  /* ----- Core surfaces ---------------------------------------------------- */
+  --bg: #0A0D12;
+  --bg-deep: #070A0F;
+  --bg-raised: #11161F;
+  --bg-raised-2: #151C27;
+  --bg-inset: #0C1118;
+  --bg-glass: rgba(10, 13, 18, 0.74);
+
+  /* ----- Lines & separators ---------------------------------------------- */
+  --line: #1A2230;
+  --line-strong: #263346;
+  --line-soft: rgba(231, 238, 248, 0.06);
+
+  /* ----- Type ------------------------------------------------------------- */
+  --ink: #E7EEF8;
+  --ink-2: #A2B0C4;
+  --ink-3: #71819A;
+  --ink-4: #4C5A6E;
+
+  /* ----- Signal colours --------------------------------------------------- */
+  --cyan: #00F0FF;
+  --cyan-bright: #7DF9FF;
+  --cyan-deep: #0891A3;
+  --cyan-wash: rgba(0, 240, 255, 0.10);
+  --cyan-line: rgba(0, 240, 255, 0.32);
+
+  --emerald: #10B981;
+  --emerald-bright: #34D399;
+  --emerald-wash: rgba(16, 185, 129, 0.10);
+  --emerald-line: rgba(16, 185, 129, 0.34);
+
+  --amber: #F59E0B;
+  --amber-bright: #FBBF24;
+  --amber-wash: rgba(245, 158, 11, 0.10);
+  --amber-line: rgba(245, 158, 11, 0.36);
+
+  --rose: #F43F5E;
+  --rose-bright: #FB7185;
+  --rose-wash: rgba(244, 63, 94, 0.10);
+  --rose-line: rgba(244, 63, 94, 0.38);
+
+  --violet: #8B5CF6;
+  --violet-wash: rgba(139, 92, 246, 0.10);
+
+  /* ----- Gradients -------------------------------------------------------- */
+  --grad-signal: linear-gradient(104deg, #E7EEF8 0%, #B9EDF4 40%, #00F0FF 78%, #34D399 100%);
+  --grad-cta: linear-gradient(135deg, #00F0FF 0%, #22D3EE 55%, #10B981 100%);
+  --grad-sheen: linear-gradient(160deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0) 52%);
+  --grad-hairline: linear-gradient(90deg, transparent, rgba(0, 240, 255, 0.55), transparent);
+  --grad-hairline-em: linear-gradient(90deg, transparent, rgba(16, 185, 129, 0.55), transparent);
+
+  /* ----- Typography ------------------------------------------------------- */
+  --font-display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", "Cascadia Code", Consolas, monospace;
+
+  --fs-hero: clamp(2.45rem, 5.6vw, 4.15rem);
+  --fs-h2: clamp(1.75rem, 3.2vw, 2.5rem);
+  --fs-h3: clamp(1.15rem, 1.6vw, 1.4rem);
+  --fs-body: 1rem;
+  --fs-sm: 0.9375rem;
+  --fs-xs: 0.8125rem;
+  --fs-mono: 0.75rem;
+  --fs-micro: 0.6875rem;
+
+  --lh-tight: 1.06;
+  --lh-heading: 1.18;
+  --lh-body: 1.7;
+  --tracking-wide: 0.14em;
+  --tracking-mid: 0.08em;
+
+  /* ----- Radii ------------------------------------------------------------ */
+  --r-xs: 6px;
+  --r-sm: 9px;
+  --r-md: 13px;
+  --r-lg: 18px;
+  --r-xl: 24px;
+  --r-pill: 999px;
+
+  /* ----- Elevation -------------------------------------------------------- */
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-2: 0 18px 40px -22px rgba(0, 0, 0, 0.9);
+  --shadow-3: 0 40px 90px -40px rgba(0, 0, 0, 0.95);
+  --shadow-cyan: 0 0 0 1px rgba(0, 240, 255, 0.28), 0 18px 48px -26px rgba(0, 240, 255, 0.45);
+  --ring-focus: 0 0 0 3px rgba(0, 240, 255, 0.28);
+
+  /* ----- Layout ----------------------------------------------------------- */
+  --container: 1180px;
+  --gutter: clamp(1.15rem, 4vw, 2.5rem);
+  --nav-h: 68px;
+  --section-y: clamp(4.25rem, 8vw, 7.5rem);
+
+  /* ----- Motion ----------------------------------------------------------- */
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-1: 140ms;
+  --dur-2: 240ms;
+  --dur-3: 420ms;
+
+  /* ----- Stacking --------------------------------------------------------- */
+  --z-base: 1;
+  --z-nav: 100;
+  --z-backdrop: 200;
+  --z-drawer: 210;
+  --z-modal: 300;
+  --z-toast: 400;
+}

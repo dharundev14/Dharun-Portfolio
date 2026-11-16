@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en" data-mode="gui">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dharun D — Cybersecurity Engineer | Threat Analysis &amp; Network Security</title>
+  <meta name="description" content="Dharun D is a cybersecurity engineer based in Bangalore, India, specializing in threat analysis, network security, ethical hacking and defensive engineering. B.Tech CSE (Cybersecurity), Jain University. CEH &amp; CND certified.">
+  <meta name="author" content="Dharun D">
+  <meta name="keywords" content="Dharun D, cybersecurity engineer, threat analysis, network security, ethical hacking, defensive security, CEH, CND, Bangalore, Jain University, application security">
+  <meta name="theme-color" content="#0A0D12">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Dharun D — Cybersecurity Engineer">
+  <meta property="og:title" content="Dharun D — Engineering Resilient Defenses &amp; Detecting Advanced Threats">
+  <meta property="og:description" content="Cybersecurity engineer in Bangalore, India. Threat analysis, network security, ethical hacking and defensive engineering. CEH &amp; CND certified.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Dharun D — Cybersecurity Engineer">
+  <meta name="twitter:description" content="Threat analysis, network security, ethical hacking and defensive engineering. Bangalore, India.">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230A0D12'/%3E%3Cpath d='M18 22l8 10-8 10' stroke='%2300F0FF' stroke-width='4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M34 42h12' stroke='%2310B981' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Dharun D",
+    "jobTitle": "Cybersecurity Engineer",
+    "description": "Cybersecurity engineer specializing in threat analysis, network security, ethical hacking and defensive engineering.",
+    "email": "mailto:dharundev.05@gmail.com",
+    "telephone": "+91-6360059004",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bangalore",
+      "addressRegion": "Karnataka",
+      "addressCountry": "IN"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Jain University"
+    },
+    "knowsAbout": [
+      "Threat Analysis",
+      "Network Security",
+      "Ethical Hacking",
+      "Incident Response",
+      "Threat Intelligence",
+      "Application Security",
+      "Python",
+      "Linux",
+      "SQL",
+      "MongoDB"
+    ],
+    "sameAs": ["https://www.linkedin.com/in/dharun-dev"],
+    "hasCredential": [
+      { "@type": "EducationalOccupationalCredential", "name": "Certified Ethical Hacker (CEH)", "credentialCategory": "certification", "recognizedBy": { "@type": "Organization", "name": "EC-Council" } },
+      { "@type": "EducationalOccupationalCredential", "name": "Certified Network Defender (CND)", "credentialCategory": "certification", "recognizedBy": { "@type": "Organization", "name": "EC-Council" } },
+      { "@type": "EducationalOccupationalCredential", "name": "Digital Forensics", "credentialCategory": "certification", "recognizedBy": { "@type": "Organization", "name": "EC-Council" } }
+    ]
+  }
+  </script>
+</head>
+<body data-mode="gui">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="grid-backdrop" aria-hidden="true"></div>
+
+  <!-- ======================================================================
+       STICKY NAVIGATION
+       ==================================================================== -->
+  <header class="site-header" id="site-header">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="dharun.sec — Dharun D, back to top">
+        <span class="brand-glyph" aria-hidden="true">~/</span>
+        <span class="brand-name">dharun<span class="brand-ext">.sec</span></span>
+        <span class="brand-caret" aria-hidden="true"></span>
+      </a>
+
+      <button class="nav-burger" id="nav-burger" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#about" data-nav="about">About</a></li>
+          <li><a href="#experience" data-nav="experience">Experience</a></li>
+          <li><a href="#projects" data-nav="projects">Projects</a></li>
+          <li><a href="#skills" data-nav="skills">Skills</a></li>
+          <li><a href="#certifications" data-nav="certifications">Certifications</a></li>
+          <li><a href="#contact" data-nav="contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-tools">
+          <button class="posture-pill" id="posture-btn" type="button"
+                  aria-expanded="false" aria-controls="posture-drawer" aria-haspopup="dialog">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span class="posture-text">TLS 1.3</span>
+            <span class="pill-sep" aria-hidden="true"></span>
+            <span class="posture-text posture-csp">CSP: ENFORCED</span>
+            <span class="pill-sep" aria-hidden="true"></span>
+            <span class="posture-text posture-cert">CEH · CND</span>
+            <span class="pill-verified">VERIFIED</span>
+          </button>
+
+          <button class="mode-toggle" id="mode-toggle" type="button" role="switch" aria-checked="false"
+                  aria-label="Switch between GUI and CLI view">
+            <span class="mode-label" data-mode-label="gui">GUI</span>
+            <span class="mode-track" aria-hidden="true"><span class="mode-knob"></span></span>
+            <span class="mode-label" data-mode-label="cli">CLI</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ======================================================================
+       GUI VIEW
+       ==================================================================== -->
+  <div class="view" id="view-gui">
+    <main id="main" tabindex="-1">
+
+      <!-- ================= HERO ================= -->
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <canvas class="hero-canvas" id="net-canvas" aria-hidden="true"></canvas>
+        <div class="hero-veil" aria-hidden="true"></div>
+
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="status-badge">
+              <span class="status-dot" aria-hidden="true"></span>
+              B.TECH CSE CYBERSECURITY '26 · BANGALORE, IN
+            </p>
+
+            <h1 id="hero-title">
+              Engineering Resilient Defenses &amp;
+              <span class="grad-text">Detecting Advanced Threats</span>
+            </h1>
+
+            <p class="hero-lede">
+              I'm <strong>Dharun D</strong>, a cybersecurity engineer working across
+              threat analysis, network defense and application security. I build detection
+              logic that catches what logs hide — and harden the systems attackers count on
+              being soft.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn--primary" href="#projects">
+                Inspect Projects
+                <svg class="btn-ico" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" fill="none">
+                  <path d="M3 8h9M8.5 4.5 12 8l-3.5 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+              <button class="btn btn--ghost" type="button" data-open-cli="true">
+                <span class="btn-prompt" aria-hidden="true">$_</span>
+                Launch CLI Terminal
+                <kbd>Ctrl K</kbd>
+              </button>
+            </div>
+
+            <ul class="hero-facts" aria-label="Quick facts">
+              <li><span aria-hidden="true">◈</span> Jain University · 2022–2026</li>
+              <li><span aria-hidden="true">◈</span> EC-Council CEH &amp; CND</li>
+              <li><span aria-hidden="true">◈</span> Open to 2026 security roles</li>
+            </ul>
+          </div>
+
+          <aside class="hero-console" aria-label="Live security operations preview">
+            <div class="console-bar">
+              <span class="console-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span class="console-title">dharun@sec-ops — posture</span>
+              <span class="console-live"><span class="status-dot" aria-hidden="true"></span>LIVE</span>
+            </div>
+            <div class="console-body" role="img" aria-label="Simulated terminal showing a verified identity, hardened perimeter, three flagged authentication attempts and an active detection tail.">
+              <p class="console-line"><span class="c-dim">$</span> secops status --profile dharun</p>
+              <p class="console-line c-ok">[OK] identity verified · CEH · CND</p>
+              <p class="console-line c-ok">[OK] perimeter posture · hardened</p>
+              <p class="console-line c-ok">[OK] TLS 1.3 · HSTS preload engaged</p>
+              <p class="console-line c-warn">[WARN] 5 failed auths / 60s · 185.220.101.4</p>
+              <p class="console-line c-err">[ALERT] SQLI-001 · GET /product?id=1' OR 1=1 --</p>
+              <p class="console-line c-accent">→ action: BLOCK_IP · alert dispatched</p>
+              <p class="console-line console-tail">
+                <span class="c-dim">$</span> tail -f /var/log/detections
+                <span class="caret" aria-hidden="true"></span>
+              </p>
+            </div>
+            <div class="console-foot">
+              <span>UPTIME 99.98%</span>
+              <span>MODE · DEFENSIVE</span>
+            </div>
+          </aside>
+        </div>
+
+        <div class="container">
+          <ul class="metrics" id="metrics" aria-label="Key metrics"></ul>
+        </div>
+      </section>
+
+      <!-- ================= ABOUT ================= -->
+      <section class="section" id="about" aria-labelledby="about-title">
+        <div class="container">
+          <header class="sec-head reveal">
+            <p class="eyebrow"><span class="eyebrow-idx">01</span> // profile</p>
+            <h2 id="about-title">Defense-in-depth, engineered deliberately.</h2>
+            <p class="lede">
+              I approach security as an engineering discipline: understand the attack surface,
+              instrument it, then prove the controls hold. My work sits where log forensics,
+              network hardening and secure application design intersect.
+            </p>
+          </header>
+
+          <div class="about-grid">
+            <div class="about-prose reveal">
+              <p>
+                I'm a final-year <strong>B.Tech Computer Science (Cybersecurity)</strong> student at
+                Jain University, Bangalore, with hands-on internship experience in threat analysis,
+                vulnerability identification and defensive security strategy. I've worked remotely
+                with security teams to assess risk, map exposures and translate findings into
+                mitigations that engineering teams can actually ship.
+              </p>
+              <p>
+                My focus is detection engineering and secure architecture. I built a Python
+                log-analysis engine that correlates regex signatures with sliding time windows to
+                surface brute-force and web-attack patterns in real time, and architected an
+                RBAC-governed healthcare portal hardened against SQL injection and privilege
+                escalation. I care about evidence quality, least privilege, and alerts that
+                analysts can trust.
+              </p>
+
+              <ul class="checklist">
+                <li>Threat analysis &amp; vulnerability identification across web and network layers</li>
+                <li>Detection engineering with Python, regex signatures and correlation windows</li>
+                <li>Secure application design — RBAC, hardened auth, parameterized data access</li>
+                <li>Incident triage, log forensics and risk communication to non-security stakeholders</li>
+              </ul>
+
+              <div class="about-links">
+                <a class="link-arrow" href="#projects">View security engineering work <span aria-hidden="true">→</span></a>
+                <a class="link-arrow" href="#contact">Open a direct channel <span aria-hidden="true">→</span></a>
+              </div>
+            </div>
+
+            <aside class="id-card panel reveal" aria-label="Candidate profile summary">
+              <div class="id-card-head">
+                <span class="id-avatar" aria-hidden="true">DD</span>
+                <div>
+                  <p class="id-name">Dharun D</p>
+                  <p class="id-role">Cybersecurity Engineer</p>
+                </div>
+                <span class="chip chip--ok">VERIFIED</span>
+              </div>
+
+              <dl class="id-rows">
+                <div class="id-row"><dt>Base</dt><dd>Bangalore, IN</dd></div>
+                <div class="id-row"><dt>Degree</dt><dd>B.Tech CSE (Cybersecurity)</dd></div>
+                <div class="id-row"><dt>University</dt><dd>Jain University · 2022–2026</dd></div>
+                <div class="id-row"><dt>Focus</dt><dd>Threat analysis · AppSec</dd></div>
+                <div class="id-row"><dt>Certified</dt><dd>CEH · CND · Forensics</dd></div>
+                <div class="id-row"><dt>Status</dt><dd class="ok-text">Open to opportunities</dd></div>
+              </dl>
+
+              <button class="copy-inline" type="button" data-copy="dharundev.05@gmail.com" data-copy-label="Email address">
+                <span class="mono">dharundev.05@gmail.com</span>
+                <span class="copy-inline-ico" aria-hidden="true">⧉</span>
+              </button>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= EXPERIENCE ================= -->
+      <section class="section section--raised" id="experience" aria-labelledby="experience-title">
+        <div class="container">
+          <header class="sec-head reveal">
+            <p class="eyebrow"><span class="eyebrow-idx">02</span> // timeline</p>
+            <h2 id="experience-title">Field experience &amp; academic foundation.</h2>
+            <p class="lede">
+              Two security internships, one consistent mandate: find the exposure before an
+              adversary does, then reduce it to a documented, defensible state.
+            </p>
+          </header>
+
+          <ol class="timeline" id="experience-list"></ol>
+        </div>
+      </section>
+
+      <!-- ================= PROJECTS ================= -->
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <header class="sec-head reveal">
+            <p class="eyebrow"><span class="eyebrow-idx">03</span> // engineering</p>
+            <h2 id="projects-title">Security systems, built and broken on purpose.</h2>
+            <p class="lede">
+              Featured work in detection engineering and secure application architecture. Open an
+              architecture review, or run the live log-analysis sandbox against real attack
+              payloads.
+            </p>
+          </header>
+
+          <div class="projects" id="projects-list"></div>
+        </div>
+      </section>
+
+      <!-- ================= SKILLS ================= -->
+      <section class="section section--raised" id="skills" aria-labelledby="skills-title">
+        <div class="container">
+          <header class="sec-head reveal">
+            <p class="eyebrow"><span class="eyebrow-idx">04</span> // capability matrix</p>
+            <h2 id="skills-title">Technical capabilities.</h2>
+            <p class="lede">
+              Applied across internships, coursework and independent builds — offensive
+              methodology in service of defensive outcomes.
+            </p>
+          </header>
+
+          <div class="skills-grid" id="skills-grid"></div>
+        </div>
+      </section>
+
+      <!-- ================= CERTIFICATIONS ================= -->
+      <section class="section" id="certifications" aria-labelledby="certifications-title">
+        <div class="container">
+          <header class="sec-head reveal">
+            <p class="eyebrow"><span class="eyebrow-idx">05</span> // credentials</p>
+            <h2 id="certifications-title">Verified certifications.</h2>
+            <p class="lede">
+              Formal validation across ethical hacking, network defense, digital forensics and
+              application security.
+            </p>
+          </header>
+
+          <div class="certs-grid" id="certs-grid"></div>
+        </div>
+      </section>
+
+      <!-- ================= CONTACT ================= -->
+      <section class="section section--raised" id="contact" aria-labelledby="contact-title">
+        <div class="container">
+          <header class="sec-head reveal">
+            <p class="eyebrow"><span class="eyebrow-idx">06</span> // direct channel</p>
+            <h2 id="contact-title">Let's talk security engineering.</h2>
+            <p class="lede">
+              Security internships, junior engineering roles, or a second pair of eyes on your
+              detection coverage — send the brief and I'll respond with specifics.
+            </p>
+          </header>
+
+          <div class="contact-grid">
+            <form class="contact-form panel reveal" id="contact-form" novalidate>
+              <div class="form-head">
+                <h3>Secure message</h3>
+                <span class="chip chip--mono">CLIENT-VALIDATED</span>
+              </div>
+
+              <div class="field">
+                <label for="cf-name">Name</label>
+                <input id="cf-name" name="name" type="text" autocomplete="name" placeholder="Your full name"
+                       aria-describedby="cf-name-error" required>
+                <p class="field-error" id="cf-name-error" role="alert"></p>
+              </div>
+
+              <div class="field">
+                <label for="cf-email">Email</label>
+                <input id="cf-email" name="email" type="email" autocomplete="email" placeholder="you@company.com"
+                       aria-describedby="cf-email-error" required>
+                <p class="field-error" id="cf-email-error" role="alert"></p>
+              </div>
+
+              <div class="field">
+                <label for="cf-subject">Subject <span class="opt">(optional)</span></label>
+                <input id="cf-subject" name="subject" type="text" autocomplete="off" placeholder="Role, project or question">
+              </div>
+
+              <div class="field">
+                <label for="cf-message">Message</label>
+                <textarea id="cf-message" name="message" rows="5" placeholder="Context, timeline and what success looks like…"
+                          aria-describedby="cf-message-error cf-message-count" required></textarea>
+                <div class="field-meta">
+                  <p class="field-error" id="cf-message-error" role="alert"></p>
+                  <p class="field-count" id="cf-message-count">0 / 1200</p>
+                </div>
+              </div>
+
+              <div class="hp-field" aria-hidden="true">
+                <label for="cf-company">Company</label>
+                <input id="cf-company" name="company" type="text" tabindex="-1" autocomplete="off">
+              </div>
+
+              <button class="btn btn--primary btn--block" type="submit">Transmit message</button>
+
+              <p class="form-note">
+                No backend, no tracking. Submitting prepares a mail draft in your client addressed to
+                <span class="mono">dharundev.05@gmail.com</span>.
+              </p>
+              <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            </form>
+
+            <aside class="contact-side reveal" aria-label="Direct contact channels">
+              <div class="channels" id="channels"></div>
+
+              <div class="avail-card panel">
+                <span class="chip chip--ok">AVAILABLE</span>
+                <h3>2026 opportunities</h3>
+                <p>
+                  Open to security engineering, threat analysis and AppSec roles across India or
+                  remote. Based in Bangalore (IST, UTC+5:30).
+                </p>
+                <p class="mono avail-meta">RESPONSE WINDOW · &lt; 24H</p>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="#top" aria-label="dharun.sec — Dharun D, back to top">
+            <span class="brand-glyph" aria-hidden="true">~/</span>
+            <span class="brand-name">dharun<span class="brand-ext">.sec</span></span>
+          </a>
+          <p>Cybersecurity engineer · threat analysis, network security &amp; ethical hacking.</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="footer-meta">
+          <p class="mono">BUILT WITH SEMANTIC HTML5 · CSS3 · VANILLA ES6+</p>
+          <p class="mono">&copy; <span id="year">2026</span> DHARUN D · ALL SYSTEMS NOMINAL</p>
+          <a class="footer-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- ======================================================================
+       CLI VIEW
+       ==================================================================== -->
+  <div class="view" id="view-cli" hidden>
+    <section class="cli-page" aria-label="Interactive terminal">
+      <div class="container">
+        <div class="cli-shell">
+          <div class="cli-chrome">
+            <span class="chrome-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="chrome-title">dharun@sec-ops — /bin/zsh</span>
+            <span class="chrome-badge">TTY-01 · SECURE</span>
+          </div>
+
+          <div class="cli-body" id="cli-output" role="log" aria-live="polite" aria-label="Terminal output" tabindex="0"></div>
+
+          <form class="cli-input-row" id="cli-form" autocomplete="off">
+            <label class="sr-only" for="cli-input">Terminal command input</label>
+            <span class="cli-ps1" aria-hidden="true">dharun@sec-ops:~$</span>
+            <input class="cli-input" id="cli-input" name="command" type="text"
+                   placeholder="type 'help' to list commands" autocomplete="off"
+                   autocapitalize="off" autocorrect="off" spellcheck="false"
+                   aria-describedby="cli-hint">
+            <button class="cli-run" type="submit">RUN</button>
+          </form>
+
+          <div class="cli-foot">
+            <p id="cli-hint">Tab autocompletes · ↑ ↓ history · <kbd>Ctrl</kbd>+<kbd>K</kbd> returns to GUI</p>
+            <div class="cli-quick" id="cli-quick" aria-label="Quick commands">
+              <button type="button" data-cmd="help">help</button>
+              <button type="button" data-cmd="whoami">whoami</button>
+              <button type="button" data-cmd="ls /projects">ls /projects</button>
+              <button type="button" data-cmd="simulate --log-scan">simulate --log-scan</button>
+              <button type="button" data-cmd="certs">certs</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ======================================================================
+       SECURITY POSTURE DRAWER
+       ==================================================================== -->
+  <div class="drawer-backdrop" id="posture-backdrop" aria-hidden="true"></div>
+  <aside class="drawer" id="posture-drawer" role="dialog" aria-modal="true" aria-labelledby="posture-title" aria-hidden="true" inert>
+    <div class="drawer-head">
+      <div>
+        <p class="eyebrow">// security posture</p>
+        <h2 id="posture-title">Header hardening profile</h2>
+      </div>
+      <button class="icon-btn" type="button" data-close-drawer aria-label="Close security posture panel">
+        <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" fill="none">
+          <path d="m4 4 8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="drawer-body">
+      <p class="drawer-note">
+        Reference hardening profile for this deployment: transport security, content policy and
+        browser isolation controls. Values are copy-ready for host configuration.
+      </p>
+
+      <ul class="header-list" id="header-list"></ul>
+
+      <div class="drawer-section">
+        <p class="drawer-label">Direct channels</p>
+        <div class="drawer-copies" id="posture-copies"></div>
+      </div>
+
+      <div class="drawer-section">
+        <p class="drawer-label">Verification</p>
+        <ul class="verify-list">
+          <li><span class="mono">CEH</span><span>EC-Council · Certified Ethical Hacker</span><span class="chip chip--ok">VERIFIED</span></li>
+          <li><span class="mono">CND</span><span>EC-Council · Certified Network Defender</span><span class="chip chip--ok">VERIFIED</span></li>
+          <li><span class="mono">TLS</span><span>1.3 · HSTS preload · OCSP stapling</span><span class="chip chip--ok">ACTIVE</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="drawer-foot">
+      <span class="mono">LAST AUDIT · 2026-01</span>
+      <span class="mono ok-text">NO CRITICAL FINDINGS</span>
+    </div>
+  </aside>
+
+  <!-- ======================================================================
+       ARCHITECTURE MODAL
+       ==================================================================== -->
+  <div class="modal" id="arch-modal" aria-hidden="true" inert>
+    <div class="modal-backdrop" data-close-modal aria-hidden="true"></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-desc" tabindex="-1">
+      <header class="modal-head">
+        <div class="modal-head-copy">
+          <p class="eyebrow" id="modal-kicker">// architecture review</p>
+          <h2 id="modal-title">System architecture</h2>
+          <p class="modal-desc" id="modal-desc"></p>
+        </div>
+        <button class="icon-btn" type="button" data-close-modal aria-label="Close architecture review">
+          <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" fill="none">
+            <path d="m4 4 8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </header>
+
+      <nav class="modal-tabs" role="tablist" aria-label="Architecture review sections">
+        <button class="modal-tab" type="button" role="tab" id="tab-diagram" aria-controls="panel-diagram" aria-selected="true">Diagram</button>
+        <button class="modal-tab" type="button" role="tab" id="tab-threat" aria-controls="panel-threat" aria-selected="false" tabindex="-1">Threat model</button>
+        <button class="modal-tab" type="button" role="tab" id="tab-impl" aria-controls="panel-impl" aria-selected="false" tabindex="-1">Implementation</button>
+      </nav>
+
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+
+  <div class="toast-stack" id="toast-stack" role="status" aria-live="polite" aria-atomic="false"></div>
+
+  <noscript>
+    <div class="noscript">
+      <h2>Dharun D — Cybersecurity Engineer</h2>
+      <p>Bangalore, Karnataka, India · dharundev.05@gmail.com · +91 6360059004 · linkedin.com/dharun-dev</p>
+      <p>B.Tech CSE (Cybersecurity), Jain University (2022–2026). Internships: Cybersecurity Intern at The Red Users (Feb–Mar 2025) and Miles Education (Apr–May 2024).</p>
+      <p>Certifications: CEH, CND, Digital Forensics (EC-Council); Application Security (Udemy); Threat Intelligence &amp; Hunting (IBM SkillsBuild); Generative AI Study Jams (Google DSC).</p>
+      <p>Enable JavaScript for the interactive log-analysis sandbox and CLI terminal.</p>
+    </div>
+  </noscript>
+
+  <script src="js/data.js"></script>
+  <script src="js/terminal.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
